@@ -1,0 +1,1 @@
+web:gunicorn lawncare_project.wsgi
