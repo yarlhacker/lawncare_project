@@ -1,1 +1,1 @@
-web:gunicorn lawncare_project.wsgi --log-file - 
+web:gunicorn lawncare_project.wsgi 
