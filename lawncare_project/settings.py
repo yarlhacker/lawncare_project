@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#bcv&-=3=d9%8&#v58kv^!ir7u1+akoabc!_io#lsh*th68zr+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['buzzlawncare.herokuapp.com']
+ALLOWED_HOSTS = ['djangolawncare.herokuapp.com']
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
